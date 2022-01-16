@@ -9,7 +9,6 @@
     <version>1.0-SNAPSHOT</version>
 
 
-
     <dependencies>
 
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine -->
@@ -81,11 +80,6 @@
                         </configuration>
                     </execution>
                 </executions>
-                <configuration>
-                    <systemPropertyVariables>
-                        <jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
-                    </systemPropertyVariables>
-                </configuration>
             </plugin>
 
             <plugin>
